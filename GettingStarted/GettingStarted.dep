@@ -5,61 +5,81 @@
     <configuration>
         <name>Flash Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\low_level_init.__cstat.et</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Exe\GettingStarted.out</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Startup\low_level_init.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Startup\cstartup_M_S32K144.s</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\GettingStarted.pbd</file>
-            <file>$PROJ_DIR$\Flash Debug\List\GettingStarted.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\low_level_init.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\cstartup_M_S32K144.o</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Startup\low_level_init.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\Startup\cstartup_M_S32K144.s</file>
+            <file>$PROJ_DIR$\Flash Debug\List\GettingStarted.map</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\low_level_init.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\low_level_init.pbi</file>
             <file>$TOOLKIT_DIR$\inc\NXP\S32K144.h</file>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$TOOLKIT_DIR$\config\linker\NXP\S32K144.icf</file>
-            <file>$PROJ_DIR$\Flash Debug\Exe\GettingStarted.out</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 23 10</file>
+                    <file> 3 17</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Flash Debug\Exe\GettingStarted.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25 9 18 2 11 10 20</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Startup\low_level_init.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 13</file>
+                    <file> 18</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 20</file>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21 17 1 0 11 8 3</file>
+                    <file> 23 5 4 7 21 13 19</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 17 11 0 21 1 8 3</file>
+                    <file> 5 21 7 23 4 13 19</file>
                 </tool>
             </inputs>
         </file>
@@ -68,7 +88,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 18</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
         </file>
@@ -77,36 +97,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16</file>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 7 12 0 11 8 3 6 21 17 1</file>
+                    <file> 8 6 7 21 13 19 15 23 5 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12 8 11 3 17 21 6 0 7 1</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Flash Debug\Exe\GettingStarted.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 22 18 13 24 15 19 14</file>
+                    <file> 6 13 21 19 5 23 15 7 8 4</file>
                 </tool>
             </inputs>
         </file>

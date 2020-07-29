@@ -1,32 +1,26 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  26/Jul/2020  16:08:49
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  29/Jul/2020  14:06:39
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
+#        C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
 #        Debug\Exe\GettingStarted.out
 #    Map file     =  
-#        C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
+#        C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
 #        Debug\List\GettingStarted.map
 #    Command line =  
-#        -f C:\Users\matlab.pc\AppData\Local\Temp\EW7D2D.tmp
-#        ("C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
-#        Debug\Obj\cstartup_M_S32K144.o" "C:\Users\matlab.pc\Documents\IAR
-#        Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
-#        Debug\Obj\low_level_init.o" "C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
+#        -f C:\Users\matlab.pc\AppData\Local\Temp\EWCB8E.tmp
+#        ("C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
+#        Debug\Obj\cstartup_M_S32K144.o"
+#        "C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
+#        Debug\Obj\low_level_init.o"
+#        "C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
 #        Debug\Obj\main.o" --no_out_extension -o
-#        "C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
+#        "C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
 #        Debug\Exe\GettingStarted.out" --redirect _Printf=_PrintfFullNoMb
 #        --redirect _Scanf=_ScanfFullNoMb --map
-#        "C:\Users\matlab.pc\Documents\IAR Embedded
-#        Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash
+#        "C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash
 #        Debug\List\GettingStarted.map" --config "C:\Program Files (x86)\IAR
 #        Systems\Embedded Workbench 8.2\arm\config\linker\NXP\S32K144.icf"
 #        --entry __iar_program_start --redirect __write=__write_buffered --vfe
@@ -123,7 +117,7 @@ command line/config:
     -----------------------------------------------
     Total:
 
-C:\Users\matlab.pc\Documents\IAR Embedded Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash Debug\Obj: [1]
+C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash Debug\Obj: [1]
     cstartup_M_S32K144.o      560
     low_level_init.o           56
     main.o                    116       16
@@ -180,7 +174,7 @@ exit                        0x31b   0x4  Code  Gb  exit.o [2]
 main                        0x239  0x40  Code  Gb  main.o [1]
 
 
-[1] = C:\Users\matlab.pc\Documents\IAR Embedded Workbench\arm\8.32.1\NXP\S32\FRDMPK144-Q100\GettingStarted\Flash Debug\Obj
+[1] = C:\Users\matlab.pc\Desktop\test_1234\GettingStarted\Flash Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
